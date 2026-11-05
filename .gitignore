@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# 虚拟环境
+.venv/
+venv/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 运行产物（可通过 CLI 重新生成）
+outputs/*
+!outputs/.gitkeep
+*.log
+
+# 归档文件
+*.rar
+*.zip
